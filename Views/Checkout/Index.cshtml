@@ -1,0 +1,188 @@
+﻿@model Group13_GoodRoots.ViewModels.CheckoutViewModel
+
+@{
+    ViewData["Title"] = "Checkout";
+}
+
+<div class="container p-4">
+    <h1 class="my-4 checkout-h1 mb-4">Checkout</h1>
+
+    <div class="checkout-container">
+        
+        <form asp-controller="Checkout" asp-action="Pay" method="post" class="p-2 col-md-7">
+            <!-- Customer Details Form -->
+            <h3>Customer Details</h3>
+            <div class="card mb-4 checkout-card"> 
+                <div class="card-body">
+                    <div class="row">
+                        <!-- First Name -->
+                        <div class="col-md-6 mb-3">
+                            <label for="FirstName" class="form-label">First Name</label>
+                            <input asp-for="CustomerDetails.FirstName" class="form-control" id="FirstName" required />
+                            <span asp-validation-for="CustomerDetails.FirstName" class="text-danger"></span>
+                        </div>
+
+                        <!-- Last Name -->
+                        <div class="col-md-6 mb-3">
+                            <label for="LastName" class="form-label">Last Name</label>
+                            <input asp-for="CustomerDetails.LastName" class="form-control" id="LastName" required />
+                            <span asp-validation-for="CustomerDetails.LastName" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <!-- Street Address -->
+                        <div class="col-md-6 mb-3">
+                            <label for="Street" class="form-label">Street</label>
+                            <input asp-for="CustomerDetails.Street" class="form-control" id="Street" required />
+                            <span asp-validation-for="CustomerDetails.Street" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <!-- City -->
+                        <div class="col-md-6 mb-3">
+                            <label for="City" class="form-label">City</label>
+                            <input asp-for="CustomerDetails.City" class="form-control" id="City" required />
+                            <span asp-validation-for="CustomerDetails.City" class="text-danger"></span>
+                        </div>
+
+                        <!-- Province -->
+                        <div class="col-md-6 mb-3">
+                            <label for="Province" class="form-label">Province</label>
+                            <input asp-for="CustomerDetails.Province" class="form-control" id="Province" required />
+                            <span asp-validation-for="CustomerDetails.Province" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <!-- Postal Code -->
+                        <div class="col-md-6 mb-3">
+                            <label for="PostCode" class="form-label">PostCode</label>
+                            <input asp-for="CustomerDetails.PostCode" class="form-control" id="PostCode" required />
+                            <span asp-validation-for="CustomerDetails.PostCode" class="text-danger"></span>
+                        </div>
+
+                        <!-- Country -->
+                        <div class="col-md-6 mb-3">
+                            <label for="Country" class="form-label">Country</label>
+                            <input asp-for="CustomerDetails.Country" class="form-control" id="Country" required />
+                            <span asp-validation-for="CustomerDetails.Country" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <!-- Email -->
+                        <div class="col-md-6 mb-3">
+                            <label for="Email" class="form-label">Email</label>
+                            <input asp-for="Email" class="form-control" id="Email" value="@Model.Email" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+
+                        <!-- Phone Number -->
+                        <div class="col-md-6 mb-3">
+                            <label for="PhoneNumber" class="form-label">PhoneNumber</label>
+                            <input asp-for="CustomerDetails.PhoneNumber" class="form-control" id="PhoneNumber" />
+                            <span asp-validation-for="CustomerDetails.PhoneNumber" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Payment Information Form -->
+            <h3>Payment Information</h3>
+            <div class="card mb-4 checkout-card">
+                 <div class="card-body">
+                    <div class="row">
+                        <!-- Cardholder Name -->
+                        <div class="col-md-6 mb-3">
+                            <label for="CardName" class="form-label">Cardholder Name</label>
+                            <input 
+                                asp-for="PaymentDetails.CardName" 
+                                class="form-control"
+                                   id="CardName"
+                                   required />
+                            <span asp-validation-for="PaymentDetails.CardName" class="text-danger"></span>
+                        </div>
+
+                        <!-- Card Number -->
+                        <div class="col-md-6 mb-3">
+                            <label for="CardNumber" class="form-label">Card Number</label>
+                            <input 
+                                asp-for="PaymentDetails.CardNumber" 
+                                class="form-control"
+                                id="CardNumber"
+                                type="text"
+                                maxlength="16"
+                                required />
+                            <span asp-validation-for="PaymentDetails.CardNumber" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <!-- Expiry Date -->
+                        <div class="col-md-6 mb-3">
+                            <label for="ExpiryDate" class="form-label">Expiry Date</label>
+                            <input 
+                                asp-for="PaymentDetails.ExpiryDate" 
+                                class="form-control"
+                                type="text"
+                                id="ExpiryDate"
+                                placeholder="MM/YY"
+                                pattern="(0[1-9]|1[0-2])\/[0-9]{2}"
+                                required 
+                                />
+                            <span asp-validation-for="PaymentDetails.ExpiryDate" class="text-danger"></span>
+                        </div>
+
+                        <!-- CVV -->
+                        <div class="col-md-6 mb-3">
+                            <label for="CVV" class="form-label">CVV</label>
+                            <input 
+                                asp-for="PaymentDetails.CVV" 
+                                class="form-control"
+                                id="CVV"
+                                type="password"
+                                maxlength="3"
+                                required />
+                            <span asp-validation-for="PaymentDetails.CVV" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit" class="btn theme-button pay-button">Pay</button>
+        </form>
+
+
+        <!-- Order Summary -->
+        <div class="order-summary p-4 col-md-5 orderpage-summary">
+            <h3>Order Summary</h3>
+            <table class="table table-bordered p-2 table-checkout-order-summary">
+                <thead>
+                    <tr>
+                        <th class="text-left">Description</th>
+                        <th class="text-right">Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td class="text-right">@ViewData["Checkout-Subtotal"]</td> <!-- Displays formatted subtotal -->
+                    </tr>
+                    <tr>
+                        <td>Tax</td>
+                        <td class="text-right">@ViewData["Checkout-Tax"]</td> <!-- Displays formatted tax -->
+                    </tr>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td class="text-right"><strong>@ViewData["Checkout-Total"]</strong></td> <!-- Displays formatted total -->
+                    </tr>
+                </tbody>
+            </table>               
+        </div>
+
+    </div>
+
+        
+</div>

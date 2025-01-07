@@ -1,0 +1,126 @@
+﻿@model Group13_GoodRoots.Models.Order
+
+@{
+    ViewData["Title"] = "Order Confirmation";
+}
+
+<div class="container mt-5 mb-4 d-flex justify-content-center align-items-center gap-4">
+    <!-- Celebration Animation -->
+    <div id="celebration-container">
+        <div class="confetti confetti1"></div>
+        <div class="confetti confetti2"></div>
+        <div class="confetti confetti3"></div>
+        <div class="confetti confetti4"></div>
+        <div class="confetti confetti5"></div>
+    </div>
+
+    <div class="col-md-6>
+        <h1 class="mb-2" data-aos="fade-in">Thank you for your purchase!</h1>
+        <p>Your order will be shipped to your billing address in the next 3 days.</p>
+        <div>
+            <h4>Billing Address</h4>
+            <table class="table table-borderless">
+                <tbody>
+                    <tr>
+                        <th>Name</th>
+                        <td>@Model.UserDetails.FirstName @Model.UserDetails.LastName</td>
+                    </tr>
+                    <tr>
+                        <th>Address</th>
+                        <td>
+                            @Model.UserDetails.Street,<br />
+                            @Model.UserDetails.City,<br />
+                            @Model.UserDetails.Province,<br />
+                            @Model.UserDetails.PostCode,<br />
+                            @Model.UserDetails.Country
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Phone</th>
+                        <td>@Model.UserDetails.PhoneNumber</td>
+                    </tr>
+                    <tr>
+                        <th>Email</th>
+                        <td>@Model.UserDetails.User.Email</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <a asp-controller="Shop" asp-action="Index" class="btn theme-button mt-4 mb-4">Continue Shopping</a>
+        </div>
+    </div>
+
+    <div class="orderpage-summary col-md-4">
+        <h3>Order Summary</h3>
+        <!-- order details -->
+        <table class="table table-borderless mb-4">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Order Number</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>@Model.OrderDate.ToString("d")</td>
+                    <td>@Model.OrderId</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <!-- order items -->
+        <table class="table table-borderless">
+            <thead class="table border-top">
+                <tr>
+                    <td>Product</td>
+                    <td>Quantity</td>
+                    <td>Unit Price</td>
+                </tr>
+            </thead>
+            <tbody>
+            @foreach (var item in Model.OrderItems)
+            {
+                <tr>
+                    <td>@item.Product.ProductName</td>
+                    <td>@item.Quantity</td>
+                    <td>@item.UnitPrice</td>
+                </tr>   
+            }
+            </tbody>
+        </table>
+
+        <!-- amounts -->
+        <table class="table border-top border-bottom">
+            <tbody>
+                <tr>
+                    <td>Sub-Total</td>
+                    <td>@ViewData["Order-TotalAmount"]</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>@ViewData["Order-Tax"]</td>
+                </tr>
+                <tr class="fw-bold">
+                    <td>Order Total</td>
+                    <td>@ViewData["Order-Total"]</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Add animation library -->
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        // Initialize AOS (Animate On Scroll)
+        AOS.init({
+            duration: 1000,  // animation duration
+            easing: 'ease-in-out',  // easing function
+            once: true  // animation triggers only once
+        });
+    </script>
+}
+
+
+

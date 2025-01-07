@@ -1,0 +1,122 @@
+﻿@model List<Group13_GoodRoots.Models.CartItem>
+
+<div class="cart-page container my-5">
+    <!-- Breadcrumb Navigation -->
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">Home</a></li>
+            <li class="breadcrumb-item"><a href="/Shop">Shop</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Shopping Cart</li>
+        </ol>
+    </nav>
+
+    <h2 class="cart-page-title text-center mb-4">Shopping Cart</h2>
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-warning text-center">
+            Your cart is empty. <a href="/Shop" class="btn theme-button">Continue Shopping</a>
+        </div>
+    }
+    else
+    {
+        <div class="row">
+            <!-- Cart Items Section -->
+            <div class="cart-items-section col-lg-9 mb-4">
+                <div class="table-responsive shadow-sm border rounded p-3 bg-white">
+                    <table class="table table-bordered table-hover align-middle cart-table">
+                        <thead class="table-light">
+                            <tr>
+                                <th scope="col">Product</th>
+                                <th scope="col" class="text-center">Quantity</th>
+                                <th scope="col" class="text-center">Unit Price</th>
+                                <th scope="col" class="text-center">Subtotal</th>
+                                <th scope="col" class="text-center"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <!-- Product Details -->
+                                    <td class="d-flex align-items-center">
+                                        <img src="~/images/@item.Product.Image" alt="@item.Product.ProductName"
+                                             class="img-fluid rounded shadow-sm me-3 cart-product-image">
+                                        <div>
+                                            <h6 class="mb-0">@item.Product.ProductName</h6>
+                                        </div>
+                                    </td>
+
+                                    <!-- Quantity Controls -->
+                                    <td class="text-center">
+                                        <form asp-action="UpdateQuantity" asp-controller="Cart" method="post" class="cart-form d-flex justify-content-center align-items-center">
+                                            <input type="hidden" name="productId" value="@item.Product.ProductId" />
+                                            <button type="submit" name="action" value="decrement" class="btn btn-sm btn-outline-secondary">-</button>
+                                            <input type="text" name="quantity" value="@item.Quantity"
+                                                   class="form-control text-center mx-2 cart-quantity-input" readonly />
+                                            <button type="submit" name="action" value="increment" class="btn btn-sm btn-outline-secondary">+</button>
+                                        </form>
+                                    </td>
+
+                                    <!-- Unit Price -->
+                                    <td class="text-center">
+                                        @if (item.Product.IsSale && item.Product.SalePrice.HasValue)
+                                        {
+                                            <span class="text-danger fw-bold">$@item.Product.SalePrice</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="fw-bold">$@item.Product.Price</span>
+                                        }
+                                    </td>
+
+                                    <!-- Subtotal -->
+                                    <td class="text-center">
+                                        @if (item.Product.IsSale && item.Product.SalePrice.HasValue)
+                                        {
+                                            <span class="fw-bold">$@(item.Quantity * item.Product.SalePrice.Value)</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="fw-bold">$@(item.Quantity * item.Product.Price)</span>
+                                        }
+                                    </td>
+
+                                    <!-- Remove Button -->
+                                    <td class="text-center">
+                                        <a asp-action="RemoveFromCart" asp-controller="Cart" asp-route-productId="@item.Product.ProductId"
+                                           class="btn btn-sm btn-danger">Remove</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Order Summary Section -->
+            <div class="col-lg-3">
+                <div class="card border rounded shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Order Summary</h5>
+                        <hr />
+                        <div class="d-flex justify-content-between">
+                            <p>Subtotal:</p>
+                            <p class="fw-bold">$@ViewData["Subtotal"]</p>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <p>Tax (13%):</p>
+                            <p class="fw-bold">$@ViewData["Tax"]</p>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <p>Total:</p>
+                            <p class="fw-bold text-success">$@ViewData["Total"]</p>
+                        </div>
+                        <a asp-controller="Checkout" asp-action="Index" class="btn theme-button btn-lg w-100 mt-3">Checkout</a>
+                        <a href="/Shop" class="btn btn-outline-secondary btn-lg w-100 mt-2">Continue Shopping</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

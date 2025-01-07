@@ -1,0 +1,127 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+@model HomeViewModel
+
+@* Hero Section *@
+<div class="hero-section">
+    <div class="hero-image">
+        <div class="container hero-text">
+            <h1 class="hero-header">Rooted in Freshness</h1>
+            <p class="hero-caption">Bringing you the freshest produce, straight from the farm to your door</p>
+            <a class="btn theme-button shop-now-btn" asp-controller="Shop" asp-action="Index">Shop Now</a>
+        </div>
+    </div>
+</div>
+
+@* Featured Products *@
+<div class="container mb-5">
+    <h2 class="text-center mt-5 featured-header">Featured Products</h2>
+    <div class="row featured-items">
+        @foreach (var product in Model.FeaturedProducts)
+        {
+            <div class="col-md-4 mb-4">
+                <a asp-controller="Product" asp-action="Details" asp-route-id="@product.ProductId" class="text-decoration-none">
+                    <div class="card product-card h-100">
+                        @if (product.IsSale)
+                        {
+                            <div class="sale-badge">SALE</div>
+                        }
+                        <img src="~/images/@product.Image" class="product-card-img-top" alt="@product.ProductName" />
+                        <div class="product-card-body">
+                            <h5 class="product-card-title text-dark">@product.ProductName</h5>
+                            <p class="product-card-text text-muted">@product.ShortDescription</p>
+                            <p class="product-card-text">
+                                @if (product.IsSale && product.SalePrice.HasValue)
+                                {
+                                    <strong class="sale-price">$@product.SalePrice / lb</strong>
+                                    <span class="nosale-price">$@product.Price</span>
+                                }
+                                else
+                                {
+                                    <strong>$@product.Price / lb</strong>
+                                }
+                            </p>
+                            <div class="btn theme-button">View Details</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        }
+    </div>
+</div>
+
+@* Baked Goods Banner Section *@
+<div class="baked-goods-banner">
+    <div class="banner-text">
+        <h2 class="banner-title">Flour, Butter, Magic</h2>
+        <p class="banner-caption">Explore our range of freshly baked breads, pastries, and cakes, made with love.</p>
+    </div>
+</div>
+
+@* Baked Goods Products Section *@
+<div class="container mb-5">
+    <h2 class="text-center mt-5 featured-header">Baked Goods</h2>
+    <div class="row mt-4 baked-goods-content">
+        @* First column with first 2 products in separate rows *@
+        <div class="col-md-4 px-2">
+            <div class="row mx-0 baked-goods-grid1">
+                @foreach (var product in Model.BakedGoods.Take(2))
+                {
+                    <div class="col-9 col-md-11 col-lg-9">
+                        <a asp-controller="Product" asp-action="Details" asp-route-id="@product.ProductId" class="text-decoration-none">
+                            <div class="product-card">
+                                @if (product.IsSale)
+                                {
+                                    <div class="sale-badge">SALE</div>
+                                }
+                                <img src="~/images/@product.Image" class="product-card-img-top" alt="@product.ProductName" />
+                                <div class="product-card-body">
+                                    <h5 class="product-card-title text-dark">@product.ProductName</h5>
+                                    <p class="product-card-text">
+                                        <strong>$@product.Price / pc</strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                }
+            </div>
+        </div>
+
+        @* Second column with a single image spanning 2 rows *@
+        <div class="col-md-4 baked-goods-content-img">
+            <div class="row h-100">
+                <div class="col-12 h-100">
+                    <img src="~/images/baked-goods.jpg" class="img-fluid h-100" alt="Baked Goods Image" />
+                </div>
+            </div>
+        </div>
+
+        @* Third column with next 2 products in separate rows *@
+        <div class="col-md-4 px-2">
+            <div class="row mx-0 baked-goods-grid2">
+                @foreach (var product in Model.BakedGoods.Skip(2).Take(2))
+                {
+                    <div class="col-9 col-md-11 col-lg-9">
+                        <a asp-controller="Product" asp-action="Details" asp-route-id="@product.ProductId" class="text-decoration-none">
+                            <div class="product-card">
+                                @if (product.IsSale)
+                                {
+                                    <div class="sale-badge">SALE</div>
+                                }
+                                <img src="~/images/@product.Image" class="product-card-img-top" alt="@product.ProductName" />
+                                <div class="product-card-body">
+                                    <h5 class="product-card-title text-dark">@product.ProductName</h5>
+                                    <p class="product-card-text">
+                                        <strong>$@product.Price / pc</strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

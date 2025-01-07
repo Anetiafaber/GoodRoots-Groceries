@@ -1,0 +1,353 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Group13_GoodRoots.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Group13_GoodRoots.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\css\\admin.css",
+      "PackagePath": "staticwebassets\\css\\admin.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\images\\GoodRoots_Logo_v.png",
+      "PackagePath": "staticwebassets\\images\\GoodRoots_Logo_v.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\images\\GoodRoots_logo_h.png",
+      "PackagePath": "staticwebassets\\images\\GoodRoots_logo_h.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\images\\apple.jpg",
+      "PackagePath": "staticwebassets\\images\\apple.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\images\\baked-goods-banner.jpg",
+      "PackagePath": "staticwebassets\\images\\baked-goods-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\images\\baked-goods.jpg",
+      "PackagePath": "staticwebassets\\images\\baked-goods.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\images\\blueberry.jpg",
+      "PackagePath": "staticwebassets\\images\\blueberry.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\images\\bread.jpg",
+      "PackagePath": "staticwebassets\\images\\bread.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\images\\butter.jpg",
+      "PackagePath": "staticwebassets\\images\\butter.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\images\\cake.jpg",
+      "PackagePath": "staticwebassets\\images\\cake.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\images\\capsicum.jpg",
+      "PackagePath": "staticwebassets\\images\\capsicum.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\images\\carrot.jpg",
+      "PackagePath": "staticwebassets\\images\\carrot.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\images\\cheese.jpg",
+      "PackagePath": "staticwebassets\\images\\cheese.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\images\\croissant.jpg",
+      "PackagePath": "staticwebassets\\images\\croissant.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\images\\cucumber.jpg",
+      "PackagePath": "staticwebassets\\images\\cucumber.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\images\\cupcake.jpg",
+      "PackagePath": "staticwebassets\\images\\cupcake.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\images\\eggplant.jpg",
+      "PackagePath": "staticwebassets\\images\\eggplant.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\images\\hero-image.jpg",
+      "PackagePath": "staticwebassets\\images\\hero-image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\images\\milk.jpg",
+      "PackagePath": "staticwebassets\\images\\milk.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\images\\orange.jpg",
+      "PackagePath": "staticwebassets\\images\\orange.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\images\\shop-hero.jpg",
+      "PackagePath": "staticwebassets\\images\\shop-hero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\images\\strawberry.jpg",
+      "PackagePath": "staticwebassets\\images\\strawberry.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots_v1.14\\Group13_GoodRoots_v1.14\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Group13_GoodRoots.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Group13_GoodRoots.props",
+      "PackagePath": "build\\Group13_GoodRoots.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Group13_GoodRoots.props",
+      "PackagePath": "buildMultiTargeting\\Group13_GoodRoots.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Group13_GoodRoots.props",
+      "PackagePath": "buildTransitive\\Group13_GoodRoots.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,121 @@
+﻿body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+.admin-container {
+    padding-bottom: 50px;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+.table-responsive {
+    overflow-y: auto;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 10px 0;
+    z-index: 10;
+}
+
+footer .nav-link {
+    padding: 0 0.5rem;
+}
+
+footer .navbar-nav .nav-item .nav-link {
+    color: #ffffff;
+}
+
+    footer .navbar-nav .nav-item .nav-link:hover {
+        background-color: transparent;
+        color: var(--primary-green);
+    }
+
+.copyright-footer {
+    font-size: 0.875rem;
+    color: #d3d3d3;
+}
+
+/* Table Styling */
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: #fff;
+}
+
+.table-bordered {
+    border: 1px solid #ddd;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody tr:hover {
+    background-color: #f9f9f9;
+}
+form .form-group {
+    margin-bottom: 1rem;
+}
+
+.table-responsive {
+    margin-top: 1rem;
+}
+
+.table thead th {
+    text-align: center;
+}
+
+.table tbody td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+/* Align table headers and cells for better readability */
+.table th,
+.table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Add a little spacing between buttons in action column */
+.table .btn {
+    margin: 2px;
+}
+
+/* Ensure form spacing is consistent */
+form .form-group {
+    margin-bottom: 1rem;
+}
+
+/* Reduce padding for form labels on smaller screens */
+@media (max-width: 576px) {
+    .form-label {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+h1, .btn, .table-responsive {
+    margin-left: 0;
+}

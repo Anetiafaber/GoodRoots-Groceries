@@ -1,0 +1,102 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject UserManager<IdentityUser> UserManager
+@{
+    var isAdmin = User.IsInRole("Admin");
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - GoodRoots</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/admin.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Group13_GoodRoots.styles.css" asp-append-version="true" />
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!-- Add AOS CSS for animations -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="~/images/GoodRoots_Logo_h.png" alt="Logo" class="header-logo" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        @if (isAdmin)
+                        {
+                            <!-- Admin Specific Links -->
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="UserManagement">User Management</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Admin" asp-action="ProductManagement">Product Management</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Shop" asp-action="Index">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Cart" asp-action="Index">Cart</a>
+                            </li>
+                        }
+                    </ul>
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container mb-3">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-white bg-dark">
+        <div class="container">
+            <div class="navbar navbar-expand-sm navbar-light d-flex justify-content-center">
+                <!-- Removed container-fluid, as container itself is enough to center -->
+                <ul class="navbar-nav d-flex justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="Shop" asp-action="Index">
+                            <i class="fas fa-store nav-item-icon"></i> Shop
+                        </a>
+                    </li>
+                    <span class="text-white nav-item-separator"> | </span>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">
+                            <i class="fas fa-shopping-cart nav-item-icon"></i> Cart
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="text-center my-3">
+                <img src="~/images/GoodRoots_Logo_h.png" alt="GoodRoots Logo" class="header-logo">
+            </div>
+            <div class="text-center my-3 copyright-footer">
+                &copy; 2024 GoodRoots - Group 13 - <a class="copyright-footer" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,99 @@
+﻿@{
+    ViewData["Title"] = "Shop";
+}
+@model ShopViewModel
+
+@* Hero Banner Section *@
+<div class="shop-hero-banner">
+    <div class="shop-hero-banner-content">
+        <h1 class="shop-hero-title">Handpicked for You</h1>
+        <p class="shop-hero-caption">Your journey to unmatched freshness begins here</p>
+    </div>
+</div>
+
+@* Category Filter and Sorting Dropdown *@
+<div class="container mt-4">
+    <form method="post" asp-action="Index" asp-controller="Shop">
+        <div class="row mx-0 justify-content-end px-4 filter-container">
+            <div class="col-auto mx-0 align-items-center d-flex gap-3">
+                <div class="col-auto">
+                    <label for="selectedCategoryName">Category: </label>
+                </div>
+                <div class="col-auto">
+                    <select class="form-control" name="selectedCategoryName" asp-items="Model.Categories">
+                    </select>
+                </div>
+            </div>
+
+            <div class="col-auto mx-0 align-items-center d-flex gap-3">
+                <div class="col-auto">
+                    <label for="sortOption">Sort By: </label>
+                </div>
+                <div class="col-auto">
+                    <select class="form-control" name="selectedSortOption" asp-items="Model.SortOptions">
+                    </select>
+                </div>
+            </div>
+
+            <div class="col-auto mx-0 align-items-center d-flex gap-3">
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-dark">Apply</button>
+                </div>
+
+                <div class="col-auto">
+                    <a asp-action="Index" class="btn btn-secondary" asp-route-selectedCategoryName="All" asp-route-selectedSortOption="priceLowHigh" asp-route-page="1">Clear</a>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+@* Products List Section *@
+<div class="container mt-5 mb-5 px-5">
+    <div class="row mt-4">
+        @foreach (var product in Model.Products)
+        {
+            <div class="col-md-4 mb-4">
+                <a asp-controller="Product" asp-action="Details" asp-route-id="@product.ProductId" class="text-decoration-none">
+                    <div class="card product-card h-100">
+                        <img src="~/images/@product.Image" class="product-card-img-top" alt="@product.ProductName" />
+                        <div class="product-card-body">
+                            <h5 class="product-card-title text-dark">@product.ProductName</h5>
+                            <p class="product-card-text text-muted">@product.ShortDescription</p>
+                            <p class="product-card-text">
+                                @if (product.IsSale && product.SalePrice.HasValue)
+                                {
+                                    <strong class="sale-price">$@product.SalePrice / lb</strong>
+                                    <span class="nosale-price">$@product.Price</span>
+                                }
+                                else
+                                {
+                                    <strong>$@product.Price / lb</strong>
+                                }
+                            </p>
+                            <div class="btn theme-button">View Details</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        }
+    </div>
+
+    @* Pagination Controls *@
+    <div class="d-flex justify-content-center mt-4">
+        @if (Model.CurrentPage > 1)
+        {
+            <a asp-controller="Shop" asp-action="Index" asp-route-selectedCategoryName="@Model.SelectedCategoryName" asp-route-selectedSortOption="@Model.SelectedSortOption" asp-route-page="@(Model.CurrentPage - 1)" class="btn btn-light">Previous</a>
+        }
+
+        @for (var i = 1; i <= Model.TotalPages; i++)
+        {
+            <a asp-controller="Shop" asp-action="Index" asp-route-selectedCategoryName="@Model.SelectedCategoryName" asp-route-selectedSortOption="@Model.SelectedSortOption" asp-route-page="@i" class="btn @((i == Model.CurrentPage) ? "btn-dark" : "btn-light") mx-1">@i</a>
+        }
+
+        @if (Model.CurrentPage < Model.TotalPages)
+        {
+            <a asp-controller="Shop" asp-action="Index" asp-route-selectedCategoryName="@Model.SelectedCategoryName" asp-route-selectedSortOption="@Model.SelectedSortOption" asp-route-page="@(Model.CurrentPage + 1)" class="btn btn-light">Next</a>
+        }
+    </div>
+</div>

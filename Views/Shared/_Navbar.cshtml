@@ -1,0 +1,58 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject UserManager<IdentityUser> UserManager
+
+@{
+    var isAdmin = User.IsInRole("Admin");
+}
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/">GoodRoots</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <!-- Common Links for Both Admin and User -->
+                
+
+                @if (isAdmin)
+                {
+                    <!-- Admin Specific Links -->
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="UserManagement">User Management</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Admin/ProductManagement">Product Management</a>
+                    </li>
+                }
+                else{
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Shop">Shop</a>
+                    </li>
+                }
+
+                <!-- Links for Logged In User -->
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Account/Logout">Logout</a>
+                    </li>
+                }
+                else
+                {
+                    <!-- Links for Non-Authenticated Users -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Account/Login">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Account/Register">Register</a>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+</nav>

@@ -1,0 +1,129 @@
+﻿@model Group13_GoodRoots.Models.ProductDetailsViewModel
+
+@{
+    ViewData["Title"] = Model.Product.ProductName;
+}
+
+<div class="product-detail-page container my-5" style="max-width: 900px;">
+    <!-- Breadcrumb -->
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">Home</a></li>
+            <li class="breadcrumb-item"><a href="/Shop">Shop</a></li>
+            <li class="breadcrumb-item active" aria-current="page">@Model.Product.ProductName</li>
+        </ol>
+    </nav>
+
+    <!-- Success Message -->
+    @if (ViewBag.CartMessage != null)
+    {
+        <div class="alert alert-success text-center">
+            @ViewBag.CartMessage
+        </div>
+    }
+
+    <!-- Product Overview Section -->
+    <div class="row align-items-center">
+        <!-- Product Image -->
+        <div class="col-md-6">
+            <div class="product-image-container">
+                <img src="~/images/@Model.Product.Image"
+                     class="product-image rounded shadow-lg"
+                     alt="@Model.Product.ProductName" />
+            </div>
+        </div>
+
+        <!-- Product Details -->
+        <div class="col-md-6">
+            <div class="product-details">
+                <h1 class="product-title mb-3">@Model.Product.ProductName</h1>
+                <p class="product-short-description text-muted">@Model.Product.ShortDescription</p>
+
+                <!-- Pricing -->
+                <div class="product-price mt-4">
+                    @if (Model.Product.IsSale && Model.Product.SalePrice.HasValue)
+                    {
+                        <h3 class="text-danger fw-bold">$@Model.Product.SalePrice</h3>
+                        <h5 class="text-muted"><del>$@Model.Product.Price</del></h5>
+                    }
+                    else
+                    {
+                        <h3 class="fw-bold">$@Model.Product.Price</h3>
+                    }
+                </div>
+
+                <!-- Stock Information -->
+                <div class="product-stock mt-3">
+                    @if (Model.Product.StockQuantity > 0)
+                    {
+                        <p class="text-success"><i class="fas fa-check-circle"></i> In Stock: <strong>@Model.Product.StockQuantity</strong></p>
+                    }
+                    else
+                    {
+                        <p class="text-danger"><i class="fas fa-times-circle"></i> Out of Stock</p>
+                    }
+                </div>
+
+                <!-- Quantity Selector -->
+                <div class="mt-4">
+                    <form asp-action="Details" method="post" class="cart-form d-flex align-items-center">
+                        <input type="hidden" name="id" value="@Model.Product.ProductId" />
+                        <button type="submit" name="action" value="decrement" class="btn btn-outline-secondary">-</button>
+                        <input type="number"
+                               class="form-control text-center mx-2"
+                               name="quantity"
+                               value="@Model.Quantity"
+                               min="1"
+                               max="@Model.Product.StockQuantity"
+                               readonly />
+                        <button type="submit" name="action" value="increment" class="btn btn-outline-secondary">+</button>
+                    </form>
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="product-buttons mt-4">
+                    <form asp-controller="Product" asp-action="AddToCart" method="post" class="cart-form">
+                        <input type="hidden" name="id" value="@Model.Product.ProductId" />
+                        <input type="hidden" name="quantity" value="@Model.Quantity" />
+                        <button type="submit" class="btn btn-green btn-lg w-100">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </form>
+                    <a href="/Cart" class="btn btn-grey btn-lg w-100 mt-2">
+                        <i class="fas fa-shopping-cart"></i> Go to Cart
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Long Description Section -->
+    <div class="row mt-5">
+        <div class="col-12">
+            <h4 class="mb-3">Product Description</h4>
+            <p>@Model.Product.LongDescription</p>
+        </div>
+    </div>
+
+    <!-- Other Products Section -->
+    <div class="row mt-5">
+        <div class="col-12">
+            <h3 class="mb-4">Other Products</h3>
+            <div class="row">
+                @foreach (var otherProduct in Model.OtherProducts)
+                {
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="~/images/@otherProduct.Image" class="card-img-top" alt="@otherProduct.ProductName" />
+                            <div class="card-body text-center">
+                                <h6 class="card-title">@otherProduct.ProductName</h6>
+                                <p class="card-text">$@(otherProduct.IsSale ? otherProduct.SalePrice : otherProduct.Price)</p>
+                                <a asp-controller="Product" asp-action="Details" asp-route-id="@otherProduct.ProductId" class="btn btn-sm btn-outline-primary theme-button">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,671 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|c:\\users\\hp\\downloads\\group13_goodroots\\group13_goodroots\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|c:\\users\\hp\\downloads\\group13_goodroots\\group13_goodroots\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|solutionrelative:views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|c:\\users\\hp\\downloads\\group13_goodroots\\group13_goodroots\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|solutionrelative:controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|c:\\users\\hp\\downloads\\group13_goodroots\\group13_goodroots\\models\\shopviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|solutionrelative:models\\shopviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|c:\\users\\hp\\downloads\\group13_goodroots\\group13_goodroots\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|c:\\users\\hp\\downloads\\group13_goodroots\\group13_goodroots\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|solutionrelative:views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|c:\\users\\hp\\downloads\\group13_goodroots\\group13_goodroots\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|c:\\users\\hp\\downloads\\group13_goodroots\\group13_goodroots\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|c:\\users\\hp\\downloads\\group13_goodroots\\group13_goodroots\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|solutionrelative:views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|c:\\users\\hp\\downloads\\group13_goodroots\\group13_goodroots\\views\\admin\\usermanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|solutionrelative:views\\admin\\usermanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|c:\\users\\hp\\downloads\\group13_goodroots\\group13_goodroots\\views\\admin\\productmanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|solutionrelative:views\\admin\\productmanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|c:\\users\\hp\\downloads\\group13_goodroots\\group13_goodroots\\views\\admin\\editproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|solutionrelative:views\\admin\\editproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|c:\\users\\hp\\downloads\\group13_goodroots\\group13_goodroots\\views\\admin\\deleteuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|solutionrelative:views\\admin\\deleteuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|c:\\users\\hp\\downloads\\group13_goodroots\\group13_goodroots\\views\\admin\\deleteproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|solutionrelative:views\\admin\\deleteproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|c:\\users\\hp\\downloads\\group13_goodroots\\group13_goodroots\\views\\admin\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|solutionrelative:views\\admin\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|c:\\users\\hp\\downloads\\group13_goodroots\\group13_goodroots\\viewmodels\\paymentdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|solutionrelative:viewmodels\\paymentdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|c:\\users\\hp\\downloads\\group13_goodroots\\group13_goodroots\\viewmodels\\customerdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|solutionrelative:viewmodels\\customerdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|c:\\users\\hp\\downloads\\group13_goodroots\\group13_goodroots\\viewmodels\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|solutionrelative:viewmodels\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|c:\\users\\hp\\downloads\\group13_goodroots\\group13_goodroots\\validators\\futuredateattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|solutionrelative:validators\\futuredateattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|c:\\users\\hp\\downloads\\group13_goodroots\\group13_goodroots\\models\\userdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|solutionrelative:models\\userdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|c:\\users\\hp\\downloads\\group13_goodroots\\group13_goodroots\\models\\productdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|solutionrelative:models\\productdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|c:\\users\\hp\\downloads\\group13_goodroots\\group13_goodroots\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|c:\\users\\hp\\downloads\\group13_goodroots\\group13_goodroots\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|solutionrelative:models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|c:\\users\\hp\\downloads\\group13_goodroots\\group13_goodroots\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|c:\\users\\hp\\downloads\\group13_goodroots\\group13_goodroots\\models\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|solutionrelative:models\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|c:\\users\\hp\\downloads\\group13_goodroots\\group13_goodroots\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|c:\\users\\hp\\downloads\\group13_goodroots\\group13_goodroots\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|c:\\users\\hp\\downloads\\group13_goodroots\\group13_goodroots\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|solutionrelative:models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|c:\\users\\hp\\downloads\\group13_goodroots\\group13_goodroots\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|solutionrelative:data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|c:\\users\\hp\\downloads\\group13_goodroots\\group13_goodroots\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|c:\\users\\hp\\downloads\\group13_goodroots\\group13_goodroots\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|solutionrelative:controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|c:\\users\\hp\\downloads\\group13_goodroots\\group13_goodroots\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|c:\\users\\hp\\downloads\\group13_goodroots\\group13_goodroots\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|c:\\users\\hp\\downloads\\group13_goodroots\\group13_goodroots\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|c:\\users\\hp\\downloads\\group13_goodroots\\group13_goodroots\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|c:\\users\\hp\\downloads\\group13_goodroots\\group13_goodroots\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/GoodRoots/True/SqlTable/dbo.Products.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|c:\\users\\hp\\downloads\\group13_goodroots\\group13_goodroots\\wwwroot\\css\\admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|solutionrelative:wwwroot\\css\\admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|c:\\users\\hp\\downloads\\group13_goodroots\\group13_goodroots\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{59A4BC33-CCC6-4557-82F3-536A40EA52A6}|Group13_GoodRoots.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAAAEsAAABsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T19:23:42.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Controllers\\ShopController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ShopController.cs",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Controllers\\ShopController.cs",
+              "RelativeToolTip": "Controllers\\ShopController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA2wBMAAAB8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T19:20:20.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Views\\Shop\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shop\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Views\\Shop\\Index.cshtml",
+              "RelativeToolTip": "Views\\Shop\\Index.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAF8AAADRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T19:23:37.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShopViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Models\\ShopViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ShopViewModel.cs",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Models\\ShopViewModel.cs",
+              "RelativeToolTip": "Models\\ShopViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T18:49:28.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T19:23:10.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T19:23:18.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EditProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Views\\Admin\\EditProduct.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\EditProduct.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Views\\Admin\\EditProduct.cshtml",
+              "RelativeToolTip": "Views\\Admin\\EditProduct.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T04:46:13.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Views\\Product\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Details.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Views\\Product\\Details.cshtml",
+              "RelativeToolTip": "Views\\Product\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHgAAACqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T04:48:47.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAAAAoAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T04:50:43.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DeleteUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Views\\Admin\\DeleteUser.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\DeleteUser.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Views\\Admin\\DeleteUser.cshtml",
+              "RelativeToolTip": "Views\\Admin\\DeleteUser.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T04:46:04.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductManagement.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Views\\Admin\\ProductManagement.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\ProductManagement.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Views\\Admin\\ProductManagement.cshtml",
+              "RelativeToolTip": "Views\\Admin\\ProductManagement.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAAEAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T04:46:20.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserManagement.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Views\\Admin\\UserManagement.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\UserManagement.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Views\\Admin\\UserManagement.cshtml",
+              "RelativeToolTip": "Views\\Admin\\UserManagement.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAAIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T04:46:29.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "Views\\Cart\\Index.cshtml",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAAAGYAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T18:16:29.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DeleteProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Views\\Admin\\DeleteProduct.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\DeleteProduct.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Views\\Admin\\DeleteProduct.cshtml",
+              "RelativeToolTip": "Views\\Admin\\DeleteProduct.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T04:45:55.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AddProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Views\\Admin\\AddProduct.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\AddProduct.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Views\\Admin\\AddProduct.cshtml",
+              "RelativeToolTip": "Views\\Admin\\AddProduct.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAACUAAABoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T04:45:27.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PaymentDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\ViewModels\\PaymentDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\PaymentDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\ViewModels\\PaymentDetailsViewModel.cs",
+              "RelativeToolTip": "ViewModels\\PaymentDetailsViewModel.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T18:50:13.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CustomerDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\ViewModels\\CustomerDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\CustomerDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\ViewModels\\CustomerDetailsViewModel.cs",
+              "RelativeToolTip": "ViewModels\\CustomerDetailsViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T18:50:07.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CheckoutViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\ViewModels\\CheckoutViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\CheckoutViewModel.cs",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\ViewModels\\CheckoutViewModel.cs",
+              "RelativeToolTip": "ViewModels\\CheckoutViewModel.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T18:50:04.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FutureDateAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Validators\\FutureDateAttribute.cs",
+              "RelativeDocumentMoniker": "Validators\\FutureDateAttribute.cs",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Validators\\FutureDateAttribute.cs",
+              "RelativeToolTip": "Validators\\FutureDateAttribute.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAACIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T19:21:54.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProductDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Models\\ProductDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ProductDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Models\\ProductDetailsViewModel.cs",
+              "RelativeToolTip": "Models\\ProductDetailsViewModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T18:49:38.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAABUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T18:49:01.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Models\\OrderItem.cs",
+              "RelativeToolTip": "Models\\OrderItem.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T18:49:19.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T18:49:23.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserDetails.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Models\\UserDetails.cs",
+              "RelativeDocumentMoniker": "Models\\UserDetails.cs",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Models\\UserDetails.cs",
+              "RelativeToolTip": "Models\\UserDetails.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAswAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T18:49:30.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Models\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\HomeViewModel.cs",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Models\\HomeViewModel.cs",
+              "RelativeToolTip": "Models\\HomeViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T18:49:47.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T18:49:49.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T18:49:51.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Models\\CartItem.cs",
+              "RelativeToolTip": "Models\\CartItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T18:18:06.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "Data\\SeedData.cs",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Data\\SeedData.cs",
+              "RelativeToolTip": "Data\\SeedData.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T18:19:08.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA1wFAAAAAdAQAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T18:27:56.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CheckoutController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Controllers\\CheckoutController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CheckoutController.cs",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Controllers\\CheckoutController.cs",
+              "RelativeToolTip": "Controllers\\CheckoutController.cs",
+              "ViewState": "AQIAAPEAAAAAAAAAAAAAAMsAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T19:18:53.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Controllers\\CartController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T19:18:50.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T19:15:43.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T19:19:57.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T19:19:53.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAuwAEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T19:19:40.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "dbo.Products [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/GoodRoots/True/SqlTable/dbo.Products.sql",
+              "ToolTip": "dbo.Products [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-12-11T18:26:10.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "admin.css",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\wwwroot\\css\\admin.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\admin.css",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\wwwroot\\css\\admin.css",
+              "RelativeToolTip": "wwwroot\\css\\admin.css",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-11T04:44:37.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\HP\\Downloads\\Group13_GoodRoots\\Group13_GoodRoots\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAABwAAAAAAAAAAIAwwCAAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-11T04:44:19.309Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
